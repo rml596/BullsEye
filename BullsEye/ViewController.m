@@ -10,6 +10,7 @@
 
 @interface ViewController ()
 
+
 @end
 
 @implementation ViewController
@@ -23,5 +24,8 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+-(IBAction)showAlert{
+    UIAlertView *alertView= [[UIAlertView alloc]initWithTitle:@"Hello World!" message:@"This is a simple app" delegate:nil cancelButtonTitle:@"Done" otherButtonTitles:nil, nil];
+    [alertView show];
+}
 @end
