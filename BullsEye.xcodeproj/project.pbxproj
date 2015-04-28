@@ -14,6 +14,7 @@
 		661404921AE681BF003020C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 661404911AE681BF003020C7 /* Images.xcassets */; };
 		661404951AE681BF003020C7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 661404931AE681BF003020C7 /* LaunchScreen.xib */; };
 		661404A11AE681BF003020C7 /* BullsEyeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 661404A01AE681BF003020C7 /* BullsEyeTests.m */; };
+		66CD20401AEFBEBC00DC8B9D /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CD203F1AEFBEBC00DC8B9D /* AboutViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		6614049A1AE681BF003020C7 /* BullsEyeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BullsEyeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6614049F1AE681BF003020C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		661404A01AE681BF003020C7 /* BullsEyeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BullsEyeTests.m; sourceTree = "<group>"; };
+		66CD203E1AEFBEBC00DC8B9D /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		66CD203F1AEFBEBC00DC8B9D /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				661404891AE681BF003020C7 /* AppDelegate.m */,
 				6614048B1AE681BF003020C7 /* ViewController.h */,
 				6614048C1AE681BF003020C7 /* ViewController.m */,
+				66CD203E1AEFBEBC00DC8B9D /* AboutViewController.h */,
+				66CD203F1AEFBEBC00DC8B9D /* AboutViewController.m */,
 				6614048E1AE681BF003020C7 /* Main.storyboard */,
 				661404911AE681BF003020C7 /* Images.xcassets */,
 				661404931AE681BF003020C7 /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			files = (
 				6614048D1AE681BF003020C7 /* ViewController.m in Sources */,
 				6614048A1AE681BF003020C7 /* AppDelegate.m in Sources */,
+				66CD20401AEFBEBC00DC8B9D /* AboutViewController.m in Sources */,
 				661404871AE681BF003020C7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

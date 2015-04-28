@@ -15,6 +15,10 @@
 
 -(IBAction)showAlert;
 -(IBAction)sliderMoved:(UISlider *)slider;
+@property (strong, nonatomic) IBOutlet UILabel *scoreLabel;
+@property (strong, nonatomic) IBOutlet UILabel *roundLabel;
+- (IBAction)startNewGame;
+- (IBAction)startOver;
 
 
 
